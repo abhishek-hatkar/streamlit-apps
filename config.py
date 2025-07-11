@@ -1,0 +1,19 @@
+# === config.py ===
+
+AZURE_ENDPOINT = "https://azureopenaitest03.openai.azure.com/"
+OPENAI_API_KEY = "rTHSjHFXMuCDucQjHTqybjReb2JqxeZbWBcFsZSuZ1uVAKdSX2FOJQQJ99BCACYeBjFXJ3w3AAABACOG6EYe"
+OPENAI_API_VERSION = "2024-07-01-preview"
+DEPLOYMENT_NAME_GPT = "gpt-4"
+DEPLOYMENT_NAME_EMBED = "text-embedding-3-large"
+
+QDRANT_HOST = "10.10.20.11" #local linux server
+# QDRANT_HOST = "20.169.164.146" #azure vm linux
+QDRANT_PORT = 6333
+COLLECTION_NAME = "rule_checker_demo_azurevm"
+
+EMBEDDING_VECTOR_SIZE = 3072
+
+CHUNK_MIN_CHARS = 150
+CHUNK_MAX_CHARS = 800
+TOKEN_CHUNK_SIZE = 300
+TOKEN_CHUNK_OVERLAP = 50

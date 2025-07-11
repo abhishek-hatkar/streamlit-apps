@@ -21,3 +21,11 @@ typing-inspection==0.4.1
 typing_extensions==4.14.1
 urllib3==2.5.0
 pdfplumber
+stanza
+langchain
+tiktoken 
+langchain-experimental 
+langchain-openai 
+qdrant-client 
+sentence-transformers 
+openai 

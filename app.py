@@ -12,7 +12,6 @@ import os, json
 # === app.py ===
 import re
 from uuid import uuid4
-from config import COLLECTION_NAME
 import pandas as pd
 import difflib
 

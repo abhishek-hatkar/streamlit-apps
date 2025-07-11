@@ -8,10 +8,11 @@ from utils import (
     extract_topic_and_diff,
     prepare_chunks,
 )
-import os, json
 # === app.py ===
 import re
+import os, json
 from uuid import uuid4
+from config import COLLECTION_NAME
 import pandas as pd
 import difflib
 
